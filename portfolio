@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      color: #111;
+      background: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 200px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 100px;
+      font-weight: normal;
+      margin: 20 20 20;
+    }
+
+    h3 {
+      font-size: 50px;
+      font-weight: normal;
+      margin: 0 0 30px;
+    }
+
+    section {
+      margin-bottom: 120px;
+    }
+
+    /* Works */
+
+    .works {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 30px;
+      width: 100%;
+    }
+
+    .works img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Music */
+
+    .music {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 50px 30px;
+      width: 100%;
+    }
+
+    .song {
+      min-width: 0;
+    }
+
+    .song img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .song p {
+      margin: 12px 0 8px;
+    }
+
+    .song audio {
+      width: 100%;
+    }
+
+    /* About / Contact */
+
+    #about {
+      margin-top: 150px;
+    }
+
+    #contact {
+      margin-top: 100px;
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Portfolio</h1>
+  </header>
+
+  <main>
+
+    <h2>Works</h2>
+
+    <section>
+
+      <h3>Design</h3>
+
+      <div class="works">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\port folio\SEMIOCLASM2.jpg" alt="Design01">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\port folio\Generating.jpg" alt="Design02">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\port folio\ABJECTION-12.jpg" alt="Design03">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\port folio\fepu6.png" alt="Design04">
+      </div>
+
+    </section>
+
+    <section>
+
+      <h3>Illustration</h3>
+
+      <div class="works">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\20261022.png" alt="Illustration01">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\20261019.png" alt="Illustration02">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\20260902.png" alt="Illustration03">
+        <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\20261012.png" alt="Illustration04">
+      </div>
+
+    </section>
+
+    <section>
+
+      <h3>Oil Painting</h3>
+
+      <div class="works">
+        <img src="c:\Users\miyuu\Dropbox\PC\Downloads\IMG_0520_Original.jpg" alt="Oil Painting01">
+        <img src="c:\Users\miyuu\Dropbox\PC\Downloads\IMG_1505.jpg" alt="Oil Painting02">
+        <img src="c:\Users\miyuu\Dropbox\PC\Downloads\IMG_0521_Original.jpg" alt="Oil Painting03">
+        <img src="c:\Users\miyuu\Dropbox\PC\Downloads\IMG_1682.jpg" alt="Oil Painting04">
+      </div>
+
+    </section>
+
+    <section>
+
+      <h3>Music</h3>
+
+      <div class="music">
+
+        <div class="song">
+          <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\ys3.png" alt="Jacket01">
+          <audio src="c:\Users\miyuu\Documents\Image-Line\FL Studio\Projects\1013\1013 - コピー.wav" controls></audio>
+        </div>
+
+        <div class="song">
+          <img src="c:\Users\miyuu\OneDrive\デスクトップ\port folio\7A.jpg" alt="Jacket02">
+          <audio src="c:\Users\miyuu\Documents\Image-Line\FL Studio\Projects\gb\2gb.wav" controls></audio>
+        </div>
+
+        <div class="song">
+          <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\ys7.png" alt="Jacket03">
+          <audio src="c:\Users\miyuu\Documents\Image-Line\FL Studio\Projects\fffffff\fffffff.wav" controls></audio>
+        </div>
+
+        <div class="song">
+          <img src="c:\Users\miyuu\OneDrive\デスクトップ\素材\ys2.png" alt="Jacket04">
+          <audio src="c:\Users\miyuu\Documents\Image-Line\FL Studio\Projects\depaysement\depaysement1nsy.wav" controls></audio>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="contact">
+
+      <h2>Contact</h2>
+      <p>TEL: 080-4806-0319</p>
+      <p>Mail:asami.miyuu319@gmail.com</p>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
